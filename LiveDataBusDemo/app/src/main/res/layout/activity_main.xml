@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.duan.android.livedatabusdemo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送消息"
+      />
+
+    <Button
+        android:id="@+id/bt_send_message_sub_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="子线程发送消息"
+  />
+
+    <Button
+        android:id="@+id/bt_send_message_new_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="向新页面发送消息"
+      />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        />
+
+</LinearLayout>

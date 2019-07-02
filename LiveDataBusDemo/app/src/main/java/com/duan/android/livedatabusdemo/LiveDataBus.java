@@ -60,6 +60,7 @@ public class LiveDataBus {
         }
 
         private void hook(@NonNull Observer<T> observer) throws Exception{
+            // java 反射
             Class<LiveData> classLiveData = LiveData.class;
             Field fieldObservers = classLiveData.getDeclaredField("mObservers");
             fieldObservers.setAccessible(true);
